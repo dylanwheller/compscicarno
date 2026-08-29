@@ -39,7 +39,7 @@ const APP_NAME  = 'CompSciCarno';
 
 const INDIVIDUAL_FEATURES = [
   'Unlock all 4 CompSciCarno worlds',
-  'Daily CS challenge',
+  'Daily Computer Science challenge',
   'No ads, ever',
 ];
 
