@@ -96,7 +96,7 @@ export default function LoginScreen() {
           </Text>
           <Text className="mt-2 text-sm text-[#14b8a6] text-center">
             {mode === 'signin'
-              ? 'Sign in to continue your CS adventure.'
+              ? 'Sign in to continue your Computer Science adventure.'
               : 'Join CompSciCarno and explore technology.'}
           </Text>
         </View>

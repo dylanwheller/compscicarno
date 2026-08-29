@@ -53,7 +53,7 @@ export default function SplashScreen() {
             className="h-40 w-40 rounded-3xl opacity-95"
             resizeMode="cover"
           />
-          <Text className="mt-1 text-sm font-medium text-white/80">The CS Dino</Text>
+          <Text className="mt-1 text-sm font-medium text-white/80">The Computer Science Dino</Text>
         </View>
         <Text className="absolute bottom-10 text-xs text-white/40">Version {version}</Text>
       </View>

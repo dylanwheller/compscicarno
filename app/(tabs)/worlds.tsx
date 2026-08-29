@@ -211,7 +211,7 @@ export default function WorldsScreen() {
       >
         <CopilotView collapsable={false}>
           <Text className="text-sm text-muted-foreground">Your Journey</Text>
-          <Text className="text-2xl font-bold text-foreground">CS Worlds</Text>
+          <Text className="text-2xl font-bold text-foreground">Computer Science Worlds</Text>
         </CopilotView>
       </CopilotStep>
 

@@ -44,7 +44,7 @@ cssInterop(Sword,       { className: { target: 'style', nativeStyleToProp: { col
 // ─── Types ───────────────────────────────────────────────────────────────────
 type DailyCardState = { done: false } | { done: true; correct: number; pts: number };
 
-// ─── CS quotes ─────────────────────────────────────────────────────────────────
+// ─── Computer Science quotes ──────────────────────────────────────────────────
 const ASTRO_QUOTES = [
   'Any sufficiently advanced technology is indistinguishable from magic.',
   'The best way to predict the future is to invent it.',
@@ -52,7 +52,7 @@ const ASTRO_QUOTES = [
   'Somewhere, something incredible is waiting to be known.',
   'Software is eating the world — stay ahead of the bite.',
   'The function of good software is to make the complex appear simple.',
-  'There are only two hard things in CS: cache invalidation and naming things.',
+  'There are only two hard things in Computer Science: cache invalidation and naming things.',
 ];
 
 // ─── Rank badge ───────────────────────────────────────────────────────────────
@@ -361,7 +361,7 @@ export default function HomeScreen() {
               <CopilotStep
                 name="home-continue"
                 order={2}
-                text="Tap here to jump straight into your next CS lesson."
+                text="Tap here to jump straight into your next Computer Science lesson."
               >
                 <CopilotView>
                   <TouchableOpacity
@@ -416,7 +416,7 @@ export default function HomeScreen() {
             </Animated.View>
           </View>
         ) : (
-          <CopilotStep name="home-continue" order={2} text="Tap here to jump straight into your next CS lesson.">
+          <CopilotStep name="home-continue" order={2} text="Tap here to jump straight into your next Computer Science lesson.">
             <CopilotView><View style={{ height: 4 }} /></CopilotView>
           </CopilotStep>
         )}
@@ -453,14 +453,14 @@ export default function HomeScreen() {
           </View>
         )}
 
-        {/* ── Daily CS Challenge ── */}
+        {/* ── Daily Computer Science Challenge ── */}
         <View className="px-6 mb-6">
           <Animated.View entering={FadeInDown.duration(600).delay(300)}>
             <View className="bg-card rounded-2xl overflow-hidden border border-border">
               {/* Card header */}
               <View className="bg-primary/10 px-4 py-3 flex-row items-center gap-2">
                 <Sparkles size={20} color="#a855f7" />
-                <Text className="text-primary font-bold">Daily CS Challenge</Text>
+                <Text className="text-primary font-bold">Daily Computer Science Challenge</Text>
                 <View className="ml-auto bg-primary/20 px-2 py-0.5 rounded-full">
                   <Text className="text-primary text-xs font-bold">
                     {dailyCard.done ? '✓ DONE' : 'TODAY'}
@@ -489,7 +489,7 @@ export default function HomeScreen() {
                 >
                   <View className="p-4">
                     <Text className="text-foreground font-semibold mb-1">
-                      10 CS questions · 60 seconds
+                      10 Computer Science questions · 60 seconds
                     </Text>
                     <Text className="text-muted-foreground text-sm mb-3">
                       Hardware · Programming · Networks · AI & The Future
